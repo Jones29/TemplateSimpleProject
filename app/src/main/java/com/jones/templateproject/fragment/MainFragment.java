@@ -15,11 +15,11 @@
  *
  */
 
-package com.xuexiang.templateproject.fragment;
+package com.jones.templateproject.fragment;
 
 import android.view.KeyEvent;
 
-import com.xuexiang.templateproject.core.BaseContainerFragment;
+import com.jones.templateproject.core.BaseContainerFragment;
 import com.xuexiang.xpage.annotation.Page;
 import com.xuexiang.xpage.enums.CoreAnim;
 import com.xuexiang.xui.utils.XToastUtils;

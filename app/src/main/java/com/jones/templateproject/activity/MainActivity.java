@@ -15,12 +15,12 @@
  *
  */
 
-package com.xuexiang.templateproject.activity;
+package com.jones.templateproject.activity;
 
 import android.os.Bundle;
 
-import com.xuexiang.templateproject.core.BaseActivity;
-import com.xuexiang.templateproject.fragment.MainFragment;
+import com.jones.templateproject.core.BaseActivity;
+import com.jones.templateproject.fragment.MainFragment;
 
 /**
  * 程序入口，空壳容器

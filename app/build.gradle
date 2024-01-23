@@ -10,7 +10,7 @@ android {
     buildToolsVersion build_versions.build_tools
 
     defaultConfig {
-        applicationId "com.xuexiang.templateproject"
+        applicationId "com.jones.templateproject"
         minSdkVersion 17
         targetSdkVersion build_versions.target_sdk
         versionCode 1
@@ -98,16 +98,8 @@ dependencies {
     implementation deps.androidx.multidex
     //屏幕适配AutoSize
     implementation 'me.jessyan:autosize:1.2.1'
-    //umeng统计
-    implementation 'com.umeng.umsdk:common:9.3.8'
-    implementation  'com.umeng.umsdk:asms:1.2.1'
-
-    //美团多渠道打包
-    implementation 'com.meituan.android.walle:library:1.1.6'
 }
 
 //x-library依赖脚本
 apply from: 'x-library-simple.gradle'
-//walle多渠道打包
-apply from: 'multiple-channel.gradle'
 

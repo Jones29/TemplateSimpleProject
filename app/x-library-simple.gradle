@@ -32,8 +32,7 @@ project.configurations.each { configuration ->
     }
 
     if (configuration.name == "debugImplementation") {
-        //内存泄漏监测leak
-        configuration.dependencies.add(dependencies.create(deps.leakcanary))
+
     }
 }
 

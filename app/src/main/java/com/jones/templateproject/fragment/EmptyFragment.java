@@ -15,7 +15,7 @@
  *
  */
 
-package com.xuexiang.templateproject.fragment;
+package com.jones.templateproject.fragment;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -23,8 +23,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.xuexiang.templateproject.core.BaseFragment;
-import com.xuexiang.templateproject.databinding.FragmentEmptyBinding;
+import com.jones.templateproject.core.BaseFragment;
+import com.jones.templateproject.databinding.FragmentEmptyBinding;
 import com.xuexiang.xpage.annotation.Page;
 
 /**

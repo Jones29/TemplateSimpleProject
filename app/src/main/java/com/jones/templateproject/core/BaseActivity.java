@@ -15,7 +15,7 @@
  *
  */
 
-package com.xuexiang.templateproject.core;
+package com.jones.templateproject.core;
 
 import android.content.Context;
 import android.os.Bundle;

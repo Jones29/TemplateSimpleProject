@@ -15,13 +15,13 @@
  *
  */
 
-package com.xuexiang.templateproject.core;
+package com.jones.templateproject.core;
 
 import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
 
-import com.xuexiang.templateproject.R;
+import com.jones.templateproject.R;
 import com.xuexiang.xui.adapter.listview.BaseListAdapter;
 import com.xuexiang.xutil.common.StringUtils;
 

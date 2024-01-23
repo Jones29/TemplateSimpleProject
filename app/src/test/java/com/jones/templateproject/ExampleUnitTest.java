@@ -1,4 +1,4 @@
-package com.xuexiang.templateproject;
+package com.jones.templateproject;
 
 import org.junit.Test;
 

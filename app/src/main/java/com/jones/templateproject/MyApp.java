@@ -15,15 +15,14 @@
  *
  */
 
-package com.xuexiang.templateproject;
+package com.jones.templateproject;
 
 import android.app.Application;
 import android.content.Context;
 
 import androidx.multidex.MultiDex;
 
-import com.xuexiang.templateproject.utils.sdkinit.UMengInit;
-import com.xuexiang.templateproject.utils.sdkinit.XBasicLibInit;
+import com.jones.templateproject.utils.sdkinit.XBasicLibInit;
 
 /**
  * @author xuexiang
@@ -49,7 +48,6 @@ public class MyApp extends Application {
      */
     private void initLibs() {
         XBasicLibInit.init(this);
-        UMengInit.init(this);
     }
 
 
